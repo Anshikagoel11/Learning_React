@@ -3,10 +3,10 @@ import clothDetails from "../utils/dummy";
 import Card from "./card";
 
 function BodySection() {
-  const [cards, setCards] = useState(clothDetails); // store card data in state
+  const [cards, setCards] = useState(clothDetails); // initilize the state
 
   const sortCardsAsc = () => {
-    const sorted = [...cards].sort((a, b) => a.price - b.price);
+    const sorted =[...cards].sort((a, b) => a.price - b.price);
     setCards(sorted); // update the state with sorted data
   };
   const sortCardsDsc =()=>{

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#box{
+    display: flex;
+    background-color: rgb(71, 69, 69);
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.btn{
+    width: 190px;
+    height: 40px;
+    padding: 10px;
+    border-radius:5px;
+    color: black;
+    background-color: white;
+}
