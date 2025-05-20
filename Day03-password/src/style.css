@@ -1,23 +1,32 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
-#box{
-    display: flex;
-    background-color: rgb(71, 69, 69);
-    gap: 20px;
-    padding: 20px;
+body{
+     display: flex;
+  align-items: center;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-
+    height: 100vh; 
 }
-.btn{
-    width: 190px;
-    height: 40px;
-    padding: 10px;
-    border-radius:5px;
-    color: black;
-    background-color: white;
+#outer-box{
+    background-color: lavender;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+#inner-box{
+    height: 30vh;
+    width: 70vw;
+    align-content: center;
+    background-color: rgb(155, 131, 179);
+    font-size: 30px;
+    margin: 10px;
+}
+input{
+    margin-right: 10px;
+}
+#numbers , #characters {
+  width: 18px;
+  height: 20px;
 }
